@@ -5,11 +5,11 @@ export default function CustomConfirmationPrompt(message, callback, CustomPrompt
   const promptEl = document.createElement('div');
   document.body.appendChild(promptEl);
 
-  const closeModal = userResponse => {
+  const closePrompt = userResponse => {
     ReactDOM.unmountComponentAtNode(promptEl);
     document.body.removeChild(promptEl);
     callback(userResponse);
   };
 
-  ReactDOM.render(<CustomPrompt message={message} closeModal={closeModal} />, promptEl)
+  ReactDOM.render(<CustomPrompt message={message} closePrompt={closePrompt} />, promptEl)
 }
