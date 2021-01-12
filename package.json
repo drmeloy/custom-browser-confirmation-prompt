@@ -1,0 +1,28 @@
+{
+  "name": "custom-browser-confirmation-prompt",
+  "version": "1.0.0",
+  "description": "Replace the browser's default confirmation prompt with a custom React component",
+  "main": "./lib/CustomConfirmationPrompt.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "path": "^0.12.7",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {}
+}
